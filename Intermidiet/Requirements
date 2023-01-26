@@ -1,0 +1,32 @@
+Requirements:
+    1. Make 3 hot flavours:
+        a) Espresso:
+            50ml Water
+            18g Coffee
+            1.50$
+        b) Latte
+            200ml Water
+            24g Coffee
+            150ml Milk
+            2.50$
+        c) Cappuccino
+            250ml Water
+            24g Coffee
+            100ml Milk
+            3.00$
+    2. Resources on start:
+        a) Water - 300ml
+        b) Milk - 200ml
+        c) Coffee - 100g
+    3. Coin Operated:
+        a) Penny (1 cent).
+        b) Nickle (5 cents).
+        c) Dime (10 cents).
+        d) Quarter (25 cents).
+    4. Print report - how many resources machine currently got.
+    5. Check resources sufficient - before make coffee (response e.g. "Sorry there is not enough water" when there is not enough resources to make certain coffee).
+    6. Process coins. Ask user how much we put of each coin in to machine
+        a) not enough money
+        b) calculate how much money we put and give a change (Transaction successful)
+    7. Make coffee
+        a) reduce resources
