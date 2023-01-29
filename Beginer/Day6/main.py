@@ -10,7 +10,8 @@ def turn_right():
     turn_left()
     turn_left()
 
-
+# Below while is for starting on x=3 y=4 facing down because you will go int loop without it (there is always right
+# clear so the robot will be walking in square infinitely
 while front_is_clear():
     move()
 turn_left()
