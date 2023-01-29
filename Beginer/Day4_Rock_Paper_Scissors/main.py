@@ -2,7 +2,7 @@
 Rock, Paper, Scissors
 """
 import random
-from Beginer.Day4 import images_dict as imd
+from Beginer.Day4_Rock_Paper_Scissors import images_dict as imd
 
 player_select = int(input("What do you chose? Type 0 for Rock, 1 for Paper, or 2 for Scissors\n"))
 cpu_select = random.randint(0, 2)
